@@ -29,7 +29,6 @@ a {
 
 @media screen and (max-width: 992px) {
     .masthead {
-    background: url("../img/dither.png") center center no-repeat;
     background-attachment: scroll;
     }
 }
