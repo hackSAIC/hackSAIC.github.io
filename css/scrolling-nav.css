@@ -19,14 +19,12 @@ a {
    height: auto;
    min-height: 35rem;
    padding: 15rem 0;
-   background: url("../img/bg-masthead.jpg") no-repeat center center fixed;
+   background: url("../img/bg-masthead.jpg") center center no-repeat;
+   background-attachment: fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   height: 100%;
-   overflow: hidden;
-
  }
 
 .masthead h1 {
@@ -58,18 +56,10 @@ section {
 }
 
 .faq-section {
-    background: url("../img/dither.png");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../img/dither.png") center center no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-}
-
-@media (max-width: 768px) {
-    .masthead {
-      background-attachment: scroll;
-  }
-    .faq-sectio {
-        background-attachment: scroll;
-    }
 }
