@@ -1,0 +1,63 @@
+h2 {
+    font-family: 'Archivo', sans-serif;
+}
+
+a {
+    font-family: 'Archivo', sans-serif;
+}
+
+.card-header {
+    font-family: 'Archivo', sans-serif;
+}
+.card-body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .masthead {
+   position: relative;
+   width: 100%;
+   height: auto;
+   min-height: 35rem;
+   padding: 15rem 0;
+   background: url("../img/bg-masthead.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+.masthead h1 {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  max-width: 60%;
+}
+
+.masthead h2 {
+    font-family: 'Archivo', sans-serif;
+    color:#fd7360;
+    opacity:0.8;
+    font-size:4vw;
+}
+
+.masthead h3 {
+    font-family: 'Open Sans', sans-serif;
+    color:#fd7360;
+    opacity:0.8;
+    font-size:3vw;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.lead {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.faq-section {
+    background: url("../img/dither.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
