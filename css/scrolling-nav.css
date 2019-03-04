@@ -29,7 +29,7 @@ a {
 
 @media screen and (max-width: 992px) {
     .masthead {
-    background-color: blue;
+    background: url("../img/dither.png") center center no-repeat;
     background-attachment: scroll;
     }
 }
