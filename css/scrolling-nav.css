@@ -19,13 +19,14 @@ a {
    height: auto;
    min-height: 35rem;
    padding: 15rem 0;
-   background: transparent;
-   background: url("../img/bg-masthead.jpg") center center no-repeat;
-   background-attachment: fixed;
+   background: url("../img/bg-masthead.jpg") no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   height: 100%;
+   overflow: hidden;
+
  }
 
 .masthead h1 {
@@ -62,4 +63,13 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+      background-attachment: scroll;
+  }
+    .faq-sectio {
+        background-attachment: scroll;
+    }
 }
