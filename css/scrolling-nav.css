@@ -27,7 +27,7 @@ a {
     background-size: cover;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 897px) {
     .masthead {
     background-attachment: scroll;
     }
@@ -70,7 +70,7 @@ section {
     background-size: cover;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 897px) {
     .faq-section {
     background-attachment: scroll;
     }
