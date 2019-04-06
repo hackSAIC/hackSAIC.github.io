@@ -60,6 +60,9 @@ section {
 .lead {
     font-family: 'Open Sans', sans-serif;
 }
+.tablehead {
+    font-family: 'Archivo', sans-serif;
+}
 
 .faq-section {
     background: url("../img/dither.png") center center no-repeat;
